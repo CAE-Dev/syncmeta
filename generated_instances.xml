@@ -58,8 +58,8 @@
           timeout();
         })();
     </script>
-    <script src="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js/config.js"></script>
-    <script src="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js/lib/vendor/require.js"></script>    
+    <script src="https://cae-dev.github.io/syncmeta/js/config.js"></script>
+    <script src="https://cae-dev.github.io/syncmeta/js/lib/vendor/require.js"></script>    
     <script type="application/javascript">
     requirejs([
         'jqueryui',
@@ -272,15 +272,15 @@
                 .then(function(metamodel, viewpoints,logicalGuidanceRepresentation){
                 return createSpace(spaceLabel,spaceTitle)
                     .then(function(spaceURI){
-                         return addWidgetToSpace(spaceURI,"https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/activity.xml")
+                         return addWidgetToSpace(spaceURI,"https://cae-dev.github.io/syncmeta/activity.xml")
                              .then(function(){
-                                  return addWidgetToSpace(spaceURI,"https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/widget.xml");
+                                  return addWidgetToSpace(spaceURI,"https://cae-dev.github.io/syncmeta/widget.xml");
                              }).then(function(){
-                      return addWidgetToSpace(spaceURI,"https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/palette.xml");
+                      return addWidgetToSpace(spaceURI,"https://cae-dev.github.io/syncmeta/palette.xml");
                              }).then(function(){
-                      return addWidgetToSpace(spaceURI,"https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/attribute.xml");
+                      return addWidgetToSpace(spaceURI,"https://cae-dev.github.io/syncmeta/attribute.xml");
                             }).then(function(){
-                      return addWidgetToSpace(spaceURI,"https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/debug.xml");
+                      return addWidgetToSpace(spaceURI,"https://cae-dev.github.io/syncmeta/debug.xml");
                       }).then(function(){
                          return addMetamodelToSpace(spaceURI,metamodel, CONFIG.NS.MY.METAMODEL);
                       }).then(function(){
@@ -295,9 +295,9 @@
                         return deferred.promise();
                        })
                        .then(function(){
-                            return addWidgetToSpace(spaceURI,"https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/guidance.xml");
+                            return addWidgetToSpace(spaceURI,"https://cae-dev.github.io/syncmeta/guidance.xml");
                        }).then(function(){
-                            return addWidgetToSpace(spaceURI,"https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/heatmap.xml");
+                            return addWidgetToSpace(spaceURI,"https://cae-dev.github.io/syncmeta/heatmap.xml");
                        }).then(function(){
                             return addLogicalGuidanceRepresentationToSpace(spaceURI, logicalGuidanceRepresentation);
                         }).then(function(){
@@ -455,7 +455,7 @@
     /*noinspection CssUnusedSymbol*/
     .loading_button {
         /*noinspection CssUnknownTarget*/
-        background-image: url('https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/img/loading_small.gif');
+        background-image: url('https://cae-dev.github.io/syncmeta/img/loading_small.gif');
         background-repeat: no-repeat;
         background-position: right center;
         padding-right: 20px;
@@ -476,7 +476,7 @@
 <button id="reset">Reset</button>
 <p><strong>Generated instances:</strong>
 <ul id="list"></ul>
-    <script src="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js/shared.js"></script>    
+    <script src="https://cae-dev.github.io/syncmeta/js/shared.js"></script>    
     ]]>
   </Content>
 </Module>

@@ -58,14 +58,14 @@
           timeout();
         })();
     </script>
-    <script src="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js/config.js"></script>
-    <script src="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js/lib/vendor/require.js"></script>    
-    <link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/css/vendor/jquery-ui.css">
-<link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/css/style.css">
-<link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/css/vendor/bootstrap.min.prefixed.css">
-<!-- <link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/css/vendor/font-awesome/css/font-awesome.min.css"> -->
+    <script src="https://cae-dev.github.io/syncmeta/js/config.js"></script>
+    <script src="https://cae-dev.github.io/syncmeta/js/lib/vendor/require.js"></script>    
+    <link rel="stylesheet" type="text/css" href="https://cae-dev.github.io/syncmeta/css/vendor/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="https://cae-dev.github.io/syncmeta/css/style.css">
+<link rel="stylesheet" type="text/css" href="https://cae-dev.github.io/syncmeta/css/vendor/bootstrap.min.prefixed.css">
+<!-- <link rel="stylesheet" type="text/css" href="https://cae-dev.github.io/syncmeta/css/vendor/font-awesome/css/font-awesome.min.css"> -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<script src="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js/guidance_widget.js"></script>
+<script src="https://cae-dev.github.io/syncmeta/js/guidance_widget.js"></script>
 <div id="guidance">
 <div class="bs-btn-group">
 	<div class="bs-form-group">
@@ -80,7 +80,7 @@
 </div>
 <div id="guidance-strategy-ui" style="height:320px; overflow:auto;">
 <div>
-    <script src="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js/shared.js"></script>    
+    <script src="https://cae-dev.github.io/syncmeta/js/shared.js"></script>    
     ]]>
   </Content>
 </Module>

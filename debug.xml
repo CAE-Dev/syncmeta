@@ -58,8 +58,8 @@
           timeout();
         })();
     </script>
-    <script src="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js/config.js"></script>
-    <script src="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js/lib/vendor/require.js"></script>    
+    <script src="https://cae-dev.github.io/syncmeta/js/config.js"></script>
+    <script src="https://cae-dev.github.io/syncmeta/js/lib/vendor/require.js"></script>    
     <script type="application/javascript">
     requirejs(['jqueryui','lodash'],function($,_){
         $(function(){		
@@ -398,7 +398,7 @@
 </div>
 <p class="hint">After import or delete refresh the canvas widget to apply the new model. After deleting and importing a new VLS refresh the whole role space.</p>
 <p id="feedback"></p>
-    <script src="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js/shared.js"></script>    
+    <script src="https://cae-dev.github.io/syncmeta/js/shared.js"></script>    
     ]]>
   </Content>
 </Module>

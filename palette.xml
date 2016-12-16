@@ -58,16 +58,16 @@
           timeout();
         })();
     </script>
-    <script src="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js/config.js"></script>
-    <script src="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js/lib/vendor/require.js"></script>    
-    <link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/css/vendor/jquery-ui.css">
-<link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/css/style.css">
-<link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/css/palette_widget.css">
-<script src="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js/palette_widget.js"></script>
+    <script src="https://cae-dev.github.io/syncmeta/js/config.js"></script>
+    <script src="https://cae-dev.github.io/syncmeta/js/lib/vendor/require.js"></script>    
+    <link rel="stylesheet" type="text/css" href="https://cae-dev.github.io/syncmeta/css/vendor/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="https://cae-dev.github.io/syncmeta/css/style.css">
+<link rel="stylesheet" type="text/css" href="https://cae-dev.github.io/syncmeta/css/palette_widget.css">
+<script src="https://cae-dev.github.io/syncmeta/js/palette_widget.js"></script>
 <div id="palette"></div>
 <p id="info"></p>
 <div id="q"></div>
-    <script src="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js/shared.js"></script>    
+    <script src="https://cae-dev.github.io/syncmeta/js/shared.js"></script>    
     ]]>
   </Content>
 </Module>

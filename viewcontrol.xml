@@ -58,10 +58,10 @@
           timeout();
         })();
     </script>
-    <script src="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js/config.js"></script>
-    <script src="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js/lib/vendor/require.js"></script>    
+    <script src="https://cae-dev.github.io/syncmeta/js/config.js"></script>
+    <script src="https://cae-dev.github.io/syncmeta/js/lib/vendor/require.js"></script>    
     
-    <script src="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js/shared.js"></script>    
+    <script src="https://cae-dev.github.io/syncmeta/js/shared.js"></script>    
     ]]>
   </Content>
 </Module>

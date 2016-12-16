@@ -58,8 +58,8 @@
           timeout();
         })();
     </script>
-    <script src="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js/config.js"></script>
-    <script src="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js/lib/vendor/require.js"></script>    
+    <script src="https://cae-dev.github.io/syncmeta/js/config.js"></script>
+    <script src="https://cae-dev.github.io/syncmeta/js/lib/vendor/require.js"></script>    
     <script type="application/javascript">
   requirejs(['jqueryui','mfexport','ildeApi', 'lodash'], function($,MFExport,ILDE,_){
         $("#json").click(function(){
@@ -89,7 +89,7 @@
 <style>
     /*noinspection CssUnknownTarget,CssUnusedSymbol*/
     .loading_button {
-        background-image: url('https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/img/loading_small.gif');
+        background-image: url('https://cae-dev.github.io/syncmeta/img/loading_small.gif');
         background-repeat: no-repeat;
         background-position: right center;
         padding-right: 20px;
@@ -97,7 +97,7 @@
 </style>
 <button id="json">Download JSON</button>
 <button id="png">Download PNG Image</button>
-    <script src="https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js/shared.js"></script>    
+    <script src="https://cae-dev.github.io/syncmeta/js/shared.js"></script>    
     ]]>
   </Content>
 </Module>

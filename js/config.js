@@ -1,5 +1,5 @@
 var require = {
-    baseUrl: "https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js",
+    baseUrl: "https://cae-dev.github.io/syncmeta/js",
     waitSeconds: 0,
     shim: {
         iwc: {
