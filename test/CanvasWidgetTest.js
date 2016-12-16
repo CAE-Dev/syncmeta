@@ -1,5 +1,5 @@
 requirejs.config({
-    baseUrl:"https://dl.dropboxusercontent.com/u/57683747/syncmetadevelop/js",
+    baseUrl:"https://cae-dev.github.io/syncmeta/js",
     paths: {
         chai : "lib/vendor/test/chai",
         mocha:'lib/vendor/test/mocha',
